@@ -11,8 +11,8 @@ description:
  -->
 <!-- {% include embedpdf.html source="https://drive.google.com/file/d/1adiSFK4NkFyDmMPDF3REhVIkQP5Wt_Gy/preview" width=100 height=800 %} -->
 
-<object data="https://rohillapankaj.com/assets/pdf/CV_Pankaj.pdf" width="100%" 
-height="600" type="application/pdf"></object>
+<!--  <object data="https://rohillapankaj.com/assets/pdf/CV_Pankaj.pdf" width="100%" 
+height="600" type="application/pdf"></object>  -->
 
  
 
