@@ -15,6 +15,9 @@ profile:
 social: true # includes social icons at the bottom of the page
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
+announcement: >
+  Actively looking for a <b>tenure-track assistant professor</b> position.
+
 ---
 
 
