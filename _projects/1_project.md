@@ -4,7 +4,7 @@ title: ePatch
 description:
 img: assets/img/ePatch_1.jpg
 importance: 2
-category: work
+category: fun
 ---
 
 
