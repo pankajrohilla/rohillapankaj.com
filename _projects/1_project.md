@@ -8,16 +8,10 @@ category: work
 ---
 
 
-An ultra-low-cost electroporator for nucleic-acid delivery
+## Backgrounds
+The puzzle was invented by Noyes Palmer Chapman. There is an initial state and goal state of this puzzle. Different types of search strategies are used. These strategies are evaluated based on completeness, Admissibility, Time complexity, and Space complexity. To understand the problem and the solving techniques some background pieces of knowledge are described below:
 
-### Papers
-- [Text Encryption with Huffman Compression](https://research.ijcaonline.org/volume54/number6/pxc3882307.pdf)
-- [EFFICIENT HUFFMAN DECODING WITH TABLE LOOKUP ](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.9447&rep=rep1&type=pdf)
-
-### Usage
-Details on how to use this tool is given in the [GitHub](https://github.com/dipta007/huffman-coding-encryption).
-
-### References
-- [Huffman Coding](https://en.wikipedia.org/wiki/Huffman_coding)
-- https://www.geeksforgeeks.org/huffman-decoding/
-- https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/
+- **Completeness**: An algorithm is complete if it can find the solution when a solution exists.
+- **Admissibility**: If a solution is found, it is guaranteed to be optimal.
+- **Time Complexity**: It calculates the worst or average case. Usually measured by the number of nodes expanded.
+- **Space Complexity**: Usually measured by the maximum size of graph/tree during the search
