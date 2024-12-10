@@ -1,13 +1,12 @@
-
 ---
 layout: page
 title: ePatch
 description:
 img: assets/img/ePatch_1.jpg
-importance: 1
+importance: 2
 category: work
-
 ---
+
 
 An ultra-low-cost electroporator for nucleic-acid delivery
 
