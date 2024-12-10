@@ -33,7 +33,7 @@ display_categories: [work, fun]
     <div class="grid-sizer {{ categories | replace: ',', '' | downcase }}"></div>
     <div class="gutter-sizer {{ categories | replace: ',', '' | downcase }}"></div>
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% include projects.liquid %}
     {%- endfor %}
   </div>
 </div>
