@@ -4,7 +4,7 @@ title: Manu jumping
 description:
 img: assets/img/3.jpg
 importance: 2
-category: algorithms
+category: work
 ---
 
 # N-Puzzle Solver ([poster](https://github.com/dipta007/N-Puzzle-Problem/blob/main/pdfs/poster.pdf), [report](https://github.com/dipta007/N-Puzzle-Problem/blob/main/pdfs/report.pdf))
