@@ -1,59 +1,44 @@
 ---
 layout: page
-title: project 2
-description:  
+title: Manu jumping
+description:
 img: assets/img/3.jpg
 importance: 2
-category: work
-
-
-
+category: algorithms
 ---
 
- 
-  
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+# N-Puzzle Solver ([poster](https://github.com/dipta007/N-Puzzle-Problem/blob/main/pdfs/poster.pdf), [report](https://github.com/dipta007/N-Puzzle-Problem/blob/main/pdfs/report.pdf))
 
 
+## Backgrounds
+The puzzle was invented by Noyes Palmer Chapman. There is an initial state and goal state of this puzzle. Different types of search strategies are used. These strategies are evaluated based on completeness, Admissibility, Time complexity, and Space complexity. To understand the problem and the solving techniques some background pieces of knowledge are described below:
 
- 
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- **Completeness**: An algorithm is complete if it can find the solution when a solution exists.
+- **Admissibility**: If a solution is found, it is guaranteed to be optimal.
+- **Time Complexity**: It calculates the worst or average case. Usually measured by the number of nodes expanded.
+- **Space Complexity**: Usually measured by the maximum size of graph/tree during the search
 
-{% raw %}
+## Search Strategies
+1. Breadth-First Search (BFS)
+2. Depth-First Search (DFS)
+3. Iterative Deepening Depth-First Search (IDDFS)
+4. Dijkstra’s algorithm
+5. Greedy Best First Search
+6. A*
+7. Iterative Deepening A* (IDA*)
+8. Hill climbing Search
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Results and Analysis:
+We have solved the 8-Puzzle problem and the 15-Puzzle problem. For the dataset, 1000 mixed board configuration of the 8-Puzzle problem has been used. Here, path cost is also included. To solve the 15-Puzzle problem, 100 mixed board configuration has been used. We have included the cost and timetable for all the algorithms implemented. We have included the parameters median, mean, best, worst and standard deviation. The tables provide a detailed analysis of the implemented algorithms. Apart from cost and time, we have also found out the parameters for the number of nodes expanded for both 8 and 15 puzzle problems.
 
-{% endraw %}
+### Cost
+![8-15 Puzzle Cost](/assets/img/project/n_puzzle_cost.png)
+
+### Time
+![8-15 Puzzle Time](/assets/img/project/n_puzzle_time.png)
+
+## Limitations
+In 15-Puzzle, with more than 50 steps, is too long to solve even with pruning and heuristics. It will have 6.3 ∗ 1058 states w/o any pruning. We were not able to get the cost of 15 puzzle problem for hill climbing, even after considering 4 heuristics in addition to DFS for 8 puzzle problem.
+
+## Conclusion
+We have implemented 8 and 2 algorithms for 8 and 15 puzzle problems, respectively. According to the cost tables, out of all the algorithms implemented BFS, Dijkstra, A*, IDA* and IDDFS have minimal cost and low standard deviation in comparison to the other algorithms that have been implemented for the 8 puzzle problem. And because these algorithms are also optimal, we conclude that they are a promising approach for the 8 puzzle problem.
