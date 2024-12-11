@@ -3,7 +3,7 @@ layout: page
 title: ePatch
 description:
 img: assets/img/ePatch_1.jpg
-importance: 2
+importance: 1
 category: fun
 ---
 
