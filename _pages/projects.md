@@ -4,7 +4,7 @@ title: projects
 hide_title: true
 permalink: /projects/
 description:
-nav: true
+nav: false
 nav_order: 3
 display_categories: [work, fun]
 ---
