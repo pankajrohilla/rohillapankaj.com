@@ -39,4 +39,17 @@
                 </div>
               {%- endif -%}
 
-              {% if project.code_repo
+              {%- if project.code_repo -%}
+              <div class="github-icon" style="padding-left: 0.4em;">
+                <div class="icon" data-toggle="tooltip" title="Code Repository">
+                  <a href="{{ project.code_repo }}" target="_blank"><i class="fa fa-code"></i></a>
+                </div>
+              </div>
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
