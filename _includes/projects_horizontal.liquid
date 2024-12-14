@@ -9,7 +9,7 @@
           {%- if project.img -%}
             <div class="card-img col-md-6">
               {% include figure.html path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" %}
-            </div>
+            </div> <!-- Closing card-img -->
             <div class="col-md-6">
           {%- else -%}
             <div class="col-md-12">
@@ -51,9 +51,8 @@
                   {%- endif -%}
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            </div> <!-- Closing col-md-6 or col-md-12 -->
+          </div> <!-- Closing row g-0 -->
+        </div> <!-- Closing card hoverable -->
     </a>
-</div>
+</div> <!-- Closing card-item -->
