@@ -1,10 +1,6 @@
 <div class="card-item col">
-  {%- if project.redirect -%}
-  <a href="{{ project.redirect }}">
-  {%- else -%}
-  <a href="{{ project.url | relative_url }}">
-  {%- endif -%}
-    <div class="card hoverable">
+  <div class="card hoverable">
+    <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
       <div class="row g-0">
         {%- if project.img -%}
         <div class="card-img col-md-6">
@@ -21,7 +17,7 @@
               {%- if project.github -%}
                 <div class="github-icon">
                   <div class="icon" data-toggle="tooltip" title="Code Repository">
-                    <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
+                    <a href="{{ project.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
                   </div>
                   {%- if project.github_stars -%}
                   <span class="stars" data-toggle="tooltip" title="GitHub Stars">
@@ -43,17 +39,4 @@
                 </div>
               {%- endif -%}
 
-              {% if project.code_repo %}
-              <div class="github-icon" style="padding-left: 0.4em;">
-                <div class="icon" data-toggle="tooltip" title="Code Repository">
-                  <a href="{{ project.code_repo }}" target="_blank"><i class="fa fa-code"></i></a>
-                </div>
-              </div>
-            {% endif %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </a>
-</div>
+              {% if project.code_repo
