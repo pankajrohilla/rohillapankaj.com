@@ -23,6 +23,5 @@ My doctoral research in the Marston Lab at Texas Tech focused on studying the hy
 
 `Actively looking for a tenure-track assistant professor position.`
 
-:round_pushpin: Atlanta, GA
 
 
