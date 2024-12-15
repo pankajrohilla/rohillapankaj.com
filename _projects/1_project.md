@@ -5,6 +5,7 @@ description:
 img: assets/img/ePatch_1.jpg
 importance: 1
 category: fun
+image_circular: true
 ---
 
 
