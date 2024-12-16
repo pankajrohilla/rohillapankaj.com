@@ -15,9 +15,9 @@ nav_order: 2
 > — Theobald Smith
 
 
-Google Scholar - [![Google Scholar](https://scholar.google.com/favicon.ico)](https://scholar.google.com/citations?user=rTeuJmkAAAAJ&hl)
+[![Google Scholar](https://scholar.google.com/favicon.ico)](https://scholar.google.com/citations?user=rTeuJmkAAAAJ&hl)
 
-<!-- [![Google Scholar](https://icons8.com/icon/okYCvWotC0uX/google-scholar)](https://scholar.google.com/citations?user=rTeuJmkAAAAJ&hl) -->
+ [![Google Scholar](https://icons8.com/icon/okYCvWotC0uX/google-scholar)](https://scholar.google.com/citations?user=rTeuJmkAAAAJ&hl) 
 
 <!--  <a href="https://scholar.google.com/citations?user=rTeuJmkAAAAJ&hl">
   <img src="https://icons.iconarchive.com/icons/academicons-team/academicons/256/google-scholar-icon.png" alt="Google Scholar" style="width:10%;"/>
