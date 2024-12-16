@@ -10,7 +10,7 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
-[:smile:](http://github.com)
+[<i class="fas fa-google-scholar"></i>]([http://github.com](https://scholar.google.com/citations?user=rTeuJmkAAAAJ&hl))
 
 {% include bib_search.liquid %}
 
