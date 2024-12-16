@@ -11,8 +11,9 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-[![Google Scholar](![image](https://github.com/user-attachments/assets/400ca3bf-6c48-4971-a71d-dd1173909d59)
-)(https://scholar.google.com/citations?user=rTeuJmkAAAAJ&hl)
+[<img src="https://static-00.iconduck.com/assets.00/google-scholar-icon-1830x2048-xs7y3cbe.png">](https://scholar.google.com/citations?user=rTeuJmkAAAAJ&hl)
+
+
 
 {% include bib_search.liquid %}
 
