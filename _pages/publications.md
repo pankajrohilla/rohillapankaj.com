@@ -13,7 +13,9 @@ nav_order: 2
 
 [![Google Scholar](https://scholar.google.com/favicon.ico)](https://scholar.google.com/citations?user=rTeuJmkAAAAJ&hl)
 
- 
+<a href="https://scholar.google.com/citations?user=rTeuJmkAAAAJ&hl">
+  <img src="https://static-00.iconduck.com/assets.00/google-scholar-icon-1830x2048-xs7y3cbe.png" alt="Google Scholar" style="width:10%;"/>
+</a>
 
 
 {% include bib_search.liquid %}
