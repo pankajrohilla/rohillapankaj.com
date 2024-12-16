@@ -10,7 +10,9 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
-[<i class="fas fa-google-scholar"></i>](https://scholar.google.com/citations?user=rTeuJmkAAAAJ&hl)
+
+[![Google Scholar](![image](https://github.com/user-attachments/assets/400ca3bf-6c48-4971-a71d-dd1173909d59)
+)(https://scholar.google.com/citations?user=rTeuJmkAAAAJ&hl)
 
 {% include bib_search.liquid %}
 
