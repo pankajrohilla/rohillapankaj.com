@@ -7,6 +7,7 @@ nav: false
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
+image_circular: true
 ---
 
 <!-- pages/projects.md -->
